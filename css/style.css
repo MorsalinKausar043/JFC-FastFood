@@ -105,3 +105,37 @@ p{
 }
 
 /* header section stop */
+
+
+/* about section start */
+
+#about_section{
+    background-image: url("../images/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#about_section #content{
+    padding-top: 30px;
+    height: 100%;
+}
+
+#about_section .half_width img{
+    width: 50%;
+    height: 50%;
+    padding-left: 10%;
+}
+
+#about_section .half_width h1{
+    font-size: 40px;
+}
+
+#about_section .half_width p{
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+
+/* about section stop */
